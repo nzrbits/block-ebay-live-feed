@@ -18,7 +18,7 @@ Listings, deals and recommendations stay. The extension only hides blocks that c
 
 Works on ebay.de, ebay.com, ebay.co.uk, ebay.at, ebay.ch, ebay.fr, ebay.it, ebay.es, ebay.nl, ebay.be, ebay.pl, ebay.ie, ebay.ca and ebay.com.au.
 
-No data collection, no analytics, no network requests. Source code: https://github.com/bonnbits/block-ebay-live-feed
+No data collection, no analytics, no network requests. Source code: https://github.com/nzrbits/block-ebay-live-feed
 
 Not affiliated with or endorsed by eBay Inc. eBay is a trademark of eBay Inc.
 
@@ -34,7 +34,7 @@ Angebote, Deals und Empfehlungen bleiben. Die Erweiterung blendet nur Bereiche a
 
 Läuft auf ebay.de, ebay.com, ebay.co.uk, ebay.at, ebay.ch, ebay.fr, ebay.it, ebay.es, ebay.nl, ebay.be, ebay.pl, ebay.ie, ebay.ca und ebay.com.au.
 
-Keine Datenerhebung, keine Analyse, keine Netzwerkanfragen. Quellcode: https://github.com/bonnbits/block-ebay-live-feed
+Keine Datenerhebung, keine Analyse, keine Netzwerkanfragen. Quellcode: https://github.com/nzrbits/block-ebay-live-feed
 
 Keine Verbindung zu eBay Inc. eBay ist eine Marke der eBay Inc.
 
@@ -51,7 +51,7 @@ Permission justifications:
 
 Data usage: none. Tick no data category and confirm the three statements.
 
-Privacy policy URL: https://github.com/bonnbits/block-ebay-live-feed/blob/main/PRIVACY.md
+Privacy policy URL: https://github.com/nzrbits/block-ebay-live-feed/blob/main/PRIVACY.md
 
 ## Assets
 - Icon: extension/icons/icon-128.png
