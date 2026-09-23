@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": { "regexSubstitution": "https://\\1ebay.\\2/" }
+    },
+    "condition": {
+      "regexFilter": "^https?://([a-z0-9-]+\\.)?ebay\\.([a-z.]+)/ebaylive([/?#].*)?$",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "regexFilter": "^https?://([a-z0-9-]+\\.)?ebay\\.([a-z.]+)/ebaylive([/?#].*)?$",
+      "resourceTypes": ["sub_frame"]
+    }
+  }
+]
