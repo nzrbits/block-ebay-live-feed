@@ -1,0 +1,40 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<!-- Store screenshot 1280x800: schematic before/after, no third-party logos -->
+<style>
+  *{box-sizing:border-box} body{margin:0;width:1280px;height:800px;font:16px/1.4 -apple-system,"Segoe UI",Roboto,sans-serif;background:#eef0f4;color:#1f2433}
+  h1{margin:0;font-size:38px;font-weight:700;letter-spacing:-.5px}
+  .top{display:flex;align-items:center;gap:20px;padding:40px 56px 28px}
+  .top img{width:64px;height:64px}
+  .top p{margin:4px 0 0;font-size:19px;color:#4b5263}
+  .cols{display:grid;grid-template-columns:1fr 1fr;gap:32px;padding:0 56px}
+  .col h2{margin:0 0 12px;font-size:15px;text-transform:uppercase;letter-spacing:1.5px;color:#6b7280}
+  .page{background:#fff;border-radius:14px;box-shadow:0 6px 24px rgba(31,36,51,.12);padding:18px;height:560px;overflow:hidden}
+  .nav{display:flex;gap:8px;margin-bottom:14px}
+  .nav span{padding:6px 10px;border-radius:14px;background:#f1f3f6;font-size:13px}
+  .nav .live{background:#ffe3e3;color:#c92a2a;font-weight:600}
+  .row{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:14px}
+  .card{height:92px;border-radius:8px;background:#e5e8ee}
+  .label{font-size:14px;font-weight:600;margin:4px 0 8px}
+  .hero{height:130px;border-radius:10px;background:linear-gradient(120deg,#ff6b6b,#c92a2a);color:#fff;padding:16px;margin-bottom:14px;position:relative}
+  .hero b{font-size:22px;display:block} .badge{display:inline-block;background:#fff;color:#c92a2a;font-size:12px;font-weight:700;padding:2px 8px;border-radius:10px;margin-bottom:8px}
+  .livecard{height:92px;border-radius:8px;background:#ffd6d6;position:relative}
+  .livecard::after{content:"● LIVE";position:absolute;left:8px;top:8px;font-size:11px;font-weight:700;color:#fff;background:#c92a2a;padding:1px 6px;border-radius:8px}
+</style></head><body>
+<div class="top"><img src="../extension/icons/icon-128.png" alt="">
+  <div><h1>Block eBay Live Feed</h1><p>Hides eBay Live banners, carousels and the menu entry. Listings and deals stay.</p></div></div>
+<div class="cols">
+  <div class="col"><h2>Without extension</h2><div class="page">
+    <div class="nav"><span class="live">● eBay Live</span><span>Deals</span><span>Electronics</span><span>Fashion</span><span>Home</span></div>
+    <div class="label">Recently viewed</div><div class="row"><div class="card"></div><div class="card"></div><div class="card"></div><div class="card"></div></div>
+    <div class="hero"><span class="badge">● LIVE</span><b>Flash sales live now</b>Join the live event</div>
+    <div class="label">eBay Live</div><div class="row"><div class="livecard"></div><div class="livecard"></div><div class="livecard"></div><div class="livecard"></div></div>
+    <div class="label">Daily deals</div><div class="row"><div class="card"></div><div class="card"></div><div class="card"></div><div class="card"></div></div>
+  </div></div>
+  <div class="col"><h2>With extension</h2><div class="page">
+    <div class="nav"><span>Deals</span><span>Electronics</span><span>Fashion</span><span>Home</span></div>
+    <div class="label">Recently viewed</div><div class="row"><div class="card"></div><div class="card"></div><div class="card"></div><div class="card"></div></div>
+    <div class="label">Daily deals</div><div class="row"><div class="card"></div><div class="card"></div><div class="card"></div><div class="card"></div></div>
+  </div></div>
+</div>
+</body></html>
