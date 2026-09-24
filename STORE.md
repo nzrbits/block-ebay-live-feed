@@ -7,32 +7,34 @@ Block eBay Live Feed - no live streams
 Hides eBay Live banners, carousels and the menu entry on eBay. No tracking, no data collection.
 
 ## Description (English)
-Hides eBay Live on eBay:
+The extension removes these parts of eBay:
 
 • the "eBay Live" menu entry
 • live event banners on the homepage
 • eBay Live carousels, also inside search results
-• eBay Live pages redirect to the eBay homepage
 
-Listings, deals and recommendations stay. The extension only hides blocks that contain nothing but eBay Live links.
+Links to eBay Live pages open the eBay homepage instead.
 
-Works on ebay.de, ebay.com, ebay.co.uk, ebay.at, ebay.ch, ebay.fr, ebay.it, ebay.es, ebay.nl, ebay.be, ebay.pl, ebay.ie, ebay.ca and ebay.com.au.
+Listings, deals and recommendations stay. Only blocks that contain nothing but eBay Live links disappear. On ebay.de it hid all 240 eBay Live links on the homepage and kept all 250 item links (checked 2026-09-23).
+
+Works on the eBay sites for 14 countries, including Germany, the US and the UK.
 
 No data collection, no analytics, no network requests. Source code: https://github.com/nzrbits/block-ebay-live-feed
 
 Not affiliated with or endorsed by eBay Inc. eBay is a trademark of eBay Inc.
 
 ## Beschreibung (Deutsch)
-Blendet eBay Live auf eBay aus:
+Die Erweiterung entfernt diese Teile von eBay:
 
 • den Menüpunkt „eBay Live“
 • Live-Event-Banner auf der Startseite
 • eBay-Live-Karussells, auch in den Suchergebnissen
-• eBay-Live-Seiten leiten auf die eBay-Startseite um
 
-Angebote, Deals und Empfehlungen bleiben. Die Erweiterung blendet nur Bereiche aus, in denen ausschließlich eBay-Live-Links stehen.
+Links auf eBay-Live-Seiten öffnen stattdessen die eBay-Startseite.
 
-Läuft auf ebay.de, ebay.com, ebay.co.uk, ebay.at, ebay.ch, ebay.fr, ebay.it, ebay.es, ebay.nl, ebay.be, ebay.pl, ebay.ie, ebay.ca und ebay.com.au.
+Angebote, Deals und Empfehlungen bleiben. Es verschwinden nur Bereiche, in denen ausschließlich eBay-Live-Links stehen. Auf ebay.de hat sie alle 240 eBay-Live-Links der Startseite ausgeblendet und alle 250 Artikel-Links behalten (geprüft am 23.09.2026).
+
+Läuft auf den eBay-Seiten von 14 Ländern, darunter Deutschland, Österreich und die Schweiz.
 
 Keine Datenerhebung, keine Analyse, keine Netzwerkanfragen. Quellcode: https://github.com/nzrbits/block-ebay-live-feed
 
