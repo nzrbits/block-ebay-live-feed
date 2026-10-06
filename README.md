@@ -1,6 +1,7 @@
 # Block eBay Live Feed - no live streams
 
 Chrome extension (Manifest V3) that hides eBay Live on eBay.
+https://chromewebstore.google.com/detail/block-ebay-live-feed-no-l/ggajijikhcfabppgpilmapanlngcaboe
 
 ## What it hides
 
